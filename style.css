@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Righteous', cursive;
+    background-color: rgb(133, 130, 130);
+}
+
+.main {
+    width: 414px;
+    height: 1026px;
+    background-color: #E5E5E5;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.top {
+    height: 92px;
+    background-color: #ec7433;
+    width: 100%;
+    color: white;
+}
+
+.drivenEats {
+    padding: 10px 0 18px 21px;
+}
+
+.top h1 {
+   font-size: 44px; 
+}
+
+.top p {
+    font-size: 18px;
+}
+
+.container {
+    height: 842px;
+    padding-left: 19px;
+    overflow: hidden;
+}
+
+.container img {
+    width: 144px;
+    height: 87px;
+    border-radius: 10px;
+}
+
+.foods, .drinks, .deserts {
+    background-color: green;
+    width: 800px;
+    display: flex;
+}
+
+.foods {
+    height: 216px;  
+}
+
+.drinks {
+    height: 200px;
+}
+
+.deserts {
+    height: 200px;
+}
+
+.container h2 {
+    font-size: 24px;
+    padding: 27px 0 17px 0 ;
+}
+
+.bottom {
+    height: 92px;
+    width: 100%;
+    background-color: white;
+}
+
+.firstfood {
+    height: 216px;
+    width: 172px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 19px;
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+}
+
+.secondfood {
+    height: 200px;
+    width: 172px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 19px;
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+}
