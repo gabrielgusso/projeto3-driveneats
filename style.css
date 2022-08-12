@@ -1,13 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400;700&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+    height: 7px;
+    background-color: #F5F5F5;
+  }
+
+  *::-webkit-scrollbar-thumb
+  {
+    background-color: #ec7433;
+    border-radius: 50px;
+  }
+
+
 body {
     font-family: 'Righteous', cursive;
     background-color: rgb(133, 130, 130);
+    background-image: url(imgs/background1.png);
 }
+
+body::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }
 
 .main {
     width: 414px;
@@ -39,7 +58,6 @@ body {
 .container {
     height: 842px;
     padding-left: 19px;
-    overflow: hidden;
 }
 
 .container img {
@@ -49,26 +67,15 @@ body {
 }
 
 .foods, .drinks, .deserts {
-    background-color: green;
-    width: 800px;
+    width: 393px;
     display: flex;
-}
-
-.foods {
-    height: 216px;  
-}
-
-.drinks {
-    height: 200px;
-}
-
-.deserts {
-    height: 200px;
+    overflow-x: scroll;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container h2 {
     font-size: 24px;
-    padding: 27px 0 17px 0 ;
+    padding: 20px 0 15px 0 ;
 }
 
 .bottom {
@@ -83,10 +90,28 @@ body {
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
-    margin-right: 19px;
-    display: flex;
-    justify-content: center;
-    padding-top: 18px;
+    margin-right: 10px;
+    padding: 14px;
+}
+
+.container h3 {
+    font-size: 16px;
+    font-weight: 700;  
+    padding-top: 10px;
+}
+
+.container p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #A6A6A6;    
+    padding-top: 7px;
+    line-height: 18px;
+}
+
+.container h4 {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 7px;
 }
 
 .secondfood {
@@ -96,7 +121,25 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     margin-right: 19px;
+    margin-right: 10px;
+    padding: 14px;
+}
+
+.bottom {
+    width: 414px;
+    height: 92px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding-top: 18px;
+}
+
+.bottom button {
+    width: 364px;
+    height: 61px;
+    background-color: #CBCBCB;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
