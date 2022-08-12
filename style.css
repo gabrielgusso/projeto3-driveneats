@@ -39,7 +39,6 @@ body::-webkit-scrollbar {
 .top {
     height: 92px;
     background-color: #ec7433;
-    width: 100%;
     color: white;
 }
 
@@ -67,7 +66,6 @@ body::-webkit-scrollbar {
 }
 
 .foods, .drinks, .deserts {
-    width: 393px;
     display: flex;
     overflow-x: scroll;
     font-family: 'Roboto', sans-serif;
@@ -75,23 +73,23 @@ body::-webkit-scrollbar {
 
 .container h2 {
     font-size: 24px;
-    padding: 20px 0 15px 0 ;
+    padding: 27px 0 15px 0 ;
 }
 
 .bottom {
     height: 92px;
-    width: 100%;
     background-color: white;
 }
 
-.firstfood {
-    height: 216px;
+.firstfood, .firstfood1, .firstfood2, .firstfood3 {
     width: 172px;
+    height: 200px;
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
-    margin-right: 10px;
-    padding: 14px;
+    margin-right: 10px;   
+    position: relative;
+    
 }
 
 .container h3 {
@@ -123,10 +121,10 @@ body::-webkit-scrollbar {
     margin-right: 19px;
     margin-right: 10px;
     padding: 14px;
+    position: relative;
 }
 
 .bottom {
-    width: 414px;
     height: 92px;
     display: flex;
     align-items: center;
@@ -142,4 +140,16 @@ body::-webkit-scrollbar {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 400;
+}
+
+.select {
+    border: 5px solid #32B72F;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    color: #32B72F;
 }
