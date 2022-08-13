@@ -65,7 +65,7 @@ body::-webkit-scrollbar {
     border-radius: 10px;
 }
 
-.foods, .drinks, .deserts {
+.foods, .drinks, .desserts {
     display: flex;
     overflow-x: scroll;
     font-family: 'Roboto', sans-serif;
@@ -81,11 +81,11 @@ body::-webkit-scrollbar {
     background-color: white;
 }
 
-.firstfood, .firstfood1, .firstfood2, .firstfood3 {
+.food, .food1, .food2, .food3, .drink, .drink1, .drink2, .drink3, .dessert, .dessert1, .dessert2, .dessert3{
     width: 172px;
     height: 200px;
     background-color: white;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 10px;
     margin-right: 10px;   
     position: relative;
@@ -140,6 +140,7 @@ body::-webkit-scrollbar {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 400;
+    color: white;
 }
 
 .select {
@@ -153,3 +154,8 @@ body::-webkit-scrollbar {
     font-size: 20px;
     color: #32B72F;
 }
+
+.display {
+    display: none;
+}
+
