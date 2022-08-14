@@ -19,7 +19,6 @@
 
 body {
     font-family: 'Righteous', cursive;
-    background-color: rgb(133, 130, 130);
     background-image: url(imgs/background1.png);
 }
 
@@ -69,6 +68,7 @@ body::-webkit-scrollbar {
     display: flex;
     overflow-x: scroll;
     font-family: 'Roboto', sans-serif;
+    height: 208px;
 }
 
 .container h2 {
@@ -88,8 +88,7 @@ body::-webkit-scrollbar {
     border: 0px solid black;
     border-radius: 10px;
     margin-right: 10px;   
-    position: relative;
-    
+    position: relative;    
 }
 
 .container h3 {
@@ -112,18 +111,6 @@ body::-webkit-scrollbar {
     padding-top: 7px;
 }
 
-.secondfood {
-    height: 200px;
-    width: 172px;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-right: 19px;
-    margin-right: 10px;
-    padding: 14px;
-    position: relative;
-}
-
 .bottom {
     height: 92px;
     display: flex;
@@ -134,7 +121,6 @@ body::-webkit-scrollbar {
 .bottom button {
     width: 364px;
     height: 61px;
-    background-color: #CBCBCB;
     border-radius: 50px;
     border: none;
     font-family: 'Roboto', sans-serif;
@@ -147,7 +133,7 @@ body::-webkit-scrollbar {
     border: 5px solid #32B72F;
 }
 
-.icon {
+.icon, .icon1, .icon2 {
     position: absolute;
     right: 10px;
     bottom: 10px;
@@ -159,3 +145,11 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.allSelect {
+    background-color: #32B72F;
+    cursor: pointer;
+}
+
+.disable {
+    pointer-events: none;
+}
